@@ -3,7 +3,7 @@
 
 ## Project Overview
 The Food Vision Mini project involves:
-- Loading a dataset of food images.
+- Loading dataset of food images(subsets of food101 pizza, steak, sushi images).
 - Create Datasets and DataLoaders
 - Getting the pretrained models, freezing the base layers and changing the classifier head
   (Fine-tuning the models on customized dataset).
@@ -51,8 +51,12 @@ If you’d like to contribute to this project, feel free to fork the repository 
 ## File Structure
 .
 ├── data/                    # Contains dataset files (not included in the repo)
+
 ├── models/                  # Directory to save trained models
+
 ├── scripts/                 # Custom Python scripts for data loading, model building, etc.
+
 ├── Food_Vision_Mini.ipynb    # Main Jupyter notebook for the project
+
 └── README.md                # Project README file
 
