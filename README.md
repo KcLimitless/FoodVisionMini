@@ -49,7 +49,7 @@ If you’d like to contribute to this project, feel free to fork the repository 
 - Inspired by Mr. D Bourke’s PyTorch Deep Learning course.
 
 ## File Structure
-.
+
 ├── data/                    # Contains dataset files (not included in the repo)
 
 ├── models/                  # Directory to save trained models
